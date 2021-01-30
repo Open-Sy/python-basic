@@ -1,11 +1,11 @@
 class Compute:
     def __init__(self, width, height, length):
         self.width = width
-        self.height = heigth
+        self.height = height
         self.length = length
 
     def area(self):
-        self.area = self.width * self*length
+        self.area = self.width * self.length
         return self.area
 
     def volume(self):
@@ -20,7 +20,7 @@ class Compute:
 
 if __name__ == '__main__':
 
-    c = Compute(width=4, heigth=4 , length=4)
+    c = Compute(width=4, height=4 , length=4)
     c.area()
     c.volume()
     c.display_area()
